@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    tools:context=".CustomerFeedback">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="We'd love to hear your suggesions. We want your ideas for give better service"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:background="@drawable/btngb"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addfeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btngb"
+        android:gravity="center"
+        android:text="Add Feedback"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewfeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btngb"
+        android:gravity="center"
+        android:text="View my suggesions"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+</LinearLayout>
